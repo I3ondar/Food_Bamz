@@ -71,10 +71,10 @@ public class ReadQuery {
 				
 				table += "<tr>";
 				table += "<td>";
-				table += product.getProductType();
+				table += product.getName();
 				table += "</td>";		
 				table += "<td>";
-				table += product.getFlavor();
+				table += product.getCategory();
 				table += "</td>";				
 				table += "<td>";
 				table += product.getCost();
